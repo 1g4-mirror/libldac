@@ -1,0 +1,14 @@
+cc_library_shared {
+    name: "libldacBT_enc",
+    arch: {
+        arm: {
+            instruction_set: "arm",
+        },
+    },
+    local_include_dirs: ["inc"],
+    srcs: [
+        "src/ldaclib.c",
+        "src/ldacBT.c",
+    ],
+    cflags: ["-O2"],
+}
