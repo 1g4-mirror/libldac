@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f74eea0a_d7d4b4d7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-01-10T06:28:47Z",
+      "side": 1,
+      "message": "Nit: no \u0027.\u0027 at the end of the summary line.",
+      "range": {
+        "startLine": 7,
+        "startChar": 32,
+        "endLine": 7,
+        "endChar": 33
+      },
+      "revId": "59cc898173436bbcd52e3429e078f496bca27fa5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f74eea0a_77d120e4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-01-10T06:28:47Z",
+      "side": 1,
+      "message": "\"url.\" -\u003e \"URL:\"",
+      "range": {
+        "startLine": 12,
+        "startChar": 46,
+        "endLine": 12,
+        "endChar": 50
+      },
+      "revId": "59cc898173436bbcd52e3429e078f496bca27fa5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f74eea0a_370cf8b2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-01-10T06:28:47Z",
+      "side": 1,
+      "message": "The purpose of this sentence is unclear, and probably the sentence is not needed. Just remove it?",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 69
+      },
+      "revId": "59cc898173436bbcd52e3429e078f496bca27fa5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
