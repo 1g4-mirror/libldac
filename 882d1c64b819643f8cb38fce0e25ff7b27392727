@@ -22,6 +22,30 @@
       "revId": "882d1c64b819643f8cb38fce0e25ff7b27392727",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "63823dcf_763210c9",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2017-01-11T02:28:02Z",
+      "side": 1,
+      "message": "If real devices need this, then we should be supporting this, likely by special casing this on an architecture/cpu feature instead of a random product variable.\n\nAre there actual devices that support the advanced simd instructions (neon, etc) required by the CDD, but would still need this flag?",
+      "parentUuid": "63823dcf_565fd4f5",
+      "range": {
+        "startLine": 13,
+        "startChar": 4,
+        "endLine": 13,
+        "endChar": 20
+      },
+      "revId": "882d1c64b819643f8cb38fce0e25ff7b27392727",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
