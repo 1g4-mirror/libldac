@@ -22,6 +22,30 @@
       "revId": "ecfa9baf55a91e1a519d4a0aa12beb8349677e6a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "97bbeed0_aca06988",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1121403
+      },
+      "writtenOn": "2017-01-11T00:56:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f74eea0a_182248bc",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 23
+      },
+      "revId": "ecfa9baf55a91e1a519d4a0aa12beb8349677e6a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
