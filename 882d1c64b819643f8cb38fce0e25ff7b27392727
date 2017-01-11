@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "63823dcf_79a9a320",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1121403
+      },
+      "writtenOn": "2017-01-11T05:08:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63823dcf_56b034e7",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 32
+      },
+      "revId": "882d1c64b819643f8cb38fce0e25ff7b27392727",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "63823dcf_565fd4f5",
         "filename": "Android.bp",
         "patchSetId": 2
@@ -108,6 +132,30 @@
       "side": 1,
       "message": "I don\u0027t know.\n\nMy comment was more in the context of documenting the purpose\nof this flag while removing it from Android.mk\nA better place probably would be a README in this\ndirectory, so the info won\u0027t be lost.",
       "parentUuid": "63823dcf_763210c9",
+      "range": {
+        "startLine": 13,
+        "startChar": 4,
+        "endLine": 13,
+        "endChar": 20
+      },
+      "revId": "882d1c64b819643f8cb38fce0e25ff7b27392727",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "63823dcf_99683ffa",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1121403
+      },
+      "writtenOn": "2017-01-11T05:08:23Z",
+      "side": 1,
+      "message": "Just added the requested comments. \n\nBased on Chisato\u0027s comment, the ARM Cortex-R series and certain external 32-bit DSPs do not have FPU and would need this flag enabled. \n\nI looked at code in build/soong/cc/config/arm_device.go, it seems that only the following ARM variants are being considered by Soong:\n\t\t\"armv5te\",\n\t\t\"armv7_a\",\n\t\t\"armv7_a_neon\",\n\t\t\"cortex_a7\",\n\t\t\"cortex_a8\",\n\t\t\"cortex_a9\",\n\t\t\"cortex_a15\",\n\t\t\"cortex_a53\",\n\t\t\"cortex_a53_a57\",\n\t\t\"krait\",\n\t\t\"denver\"\n\nIt seems that all of these variants have FPUs on-board (ARM-VFP). In the future, if we do encounter devices that meet Chisato\u0027s description, we should add that architecture support in Soong and add the cflag through the \"arch\" clause such as\n\narch: {\n  cortex_r4: {\n    cflags: [\"-D_32BIT_FIXED_POINT\"],\n  }\n}\n\ninstead of a custom Makefile flag.",
+      "parentUuid": "63823dcf_f6b940d8",
       "range": {
         "startLine": 13,
         "startChar": 4,
