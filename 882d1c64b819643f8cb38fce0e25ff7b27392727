@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "63823dcf_d620c46b",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2017-01-11T02:30:12Z",
+      "side": 1,
+      "message": "Based on the user I found, this should be export_include_dirs: [\"inc\"] (which automatically sets local_include_dirs, and automatically provides it to people who link to this library)",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 32
+      },
+      "revId": "882d1c64b819643f8cb38fce0e25ff7b27392727",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "63823dcf_565fd4f5",
         "filename": "Android.bp",
         "patchSetId": 2
