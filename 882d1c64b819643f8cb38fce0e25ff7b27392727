@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "63823dcf_565fd4f5",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-01-11T02:19:13Z",
+      "side": 1,
+      "message": "Please add a comment about the removed (optional) flag\n-D_32BIT_FIXED_POINT, which is needed for devices that don\u0027t have\nFPUs. Otherwise, the info about that flag will be lost.\nE.g., right above cflags:\n\n# -D_32BIT_FIXED_POINT should be added for devices that don\u0027t have FPU",
+      "range": {
+        "startLine": 13,
+        "startChar": 4,
+        "endLine": 13,
+        "endChar": 20
+      },
+      "revId": "882d1c64b819643f8cb38fce0e25ff7b27392727",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
