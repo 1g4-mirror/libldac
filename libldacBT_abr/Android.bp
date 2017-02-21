@@ -1,0 +1,12 @@
+cc_library_shared {
+    name: "libldacBT_abr",
+    arch: {
+        arm: {
+            instruction_set: "arm",
+        },
+    },
+
+    export_include_dirs: ["inc"],
+    srcs: ["src/ldacBT_abr.c"],
+    shared_libs: ["libldacBT_enc"],
+}
