@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e3cc600_6bf6cea7",
+        "filename": "libldacBT_abr/inc/ldacBT_abr.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-02-24T10:57:30Z",
+      "side": 1,
+      "message": "Please refer to the latest ABR documentation and change the names of all functions, parameters etc as documented.\n\nPlease add a description of API functions.\nSee ldacBT.h for reference.",
+      "revId": "8dd74523bd3e2273dafcb280d10e754ad0871e35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fdd63bd8_e61ef20c",
+        "filename": "libldacBT_abr/src/ldacBT_abr.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-02-24T10:57:30Z",
+      "side": 1,
+      "message": "Please refer to the latest ABR documentation and change the names of all functions, parameters etc as documented.",
+      "revId": "8dd74523bd3e2273dafcb280d10e754ad0871e35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
