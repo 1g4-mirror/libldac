@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "de5a1ea9_60961189",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-01T02:59:50Z",
+      "side": 1,
+      "message": "I can understand your opinion, but I believe it is better  to separate shared library of the ABR and the LDAC.\nBecause, they have different API function to get handle and to initialize. I think those function should be only one in a single shared library.\nAlso, as we reported at the last meeting, it would be better to tune the ABR function on the actual device. To make this process easier, I think the ABR functions should be in a single shared library.",
+      "parentUuid": "2eff3201_da60e248",
+      "range": {
+        "startLine": 19,
+        "startChar": 11,
+        "endLine": 19,
+        "endChar": 24
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c8c53720_b7c50e57",
         "filename": "Android.bp",
         "patchSetId": 2
