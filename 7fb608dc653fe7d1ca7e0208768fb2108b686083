@@ -1,0 +1,326 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b6d56d3a_187ff4af",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "; -\u003e :",
+      "range": {
+        "startLine": 23,
+        "startChar": 53,
+        "endLine": 23,
+        "endChar": 54
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "34d49b94_2a8118ef",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "The description below is good, but it is not clear which section\nis done once (during INIT), which section is done during SHUTDOWN,\nand which section is done/repeated per packet or similar while streaming.",
+      "range": {
+        "startLine": 23,
+        "startChar": 3,
+        "endLine": 23,
+        "endChar": 17
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0b9aa349_329d09d4",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "Nit: api -\u003e API",
+      "range": {
+        "startLine": 24,
+        "startChar": 46,
+        "endLine": 24,
+        "endChar": 49
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2553669c_2c82a16f",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "By reading the implementation, it seems\nthat ldac_ABR_get_handle() is calling internally ldac_ABR_Init(),\nhence probably the reason for the \"interval_ms\" argument in both functions.\nIs this intentional? If yes, what is the purpose of ldac_ABR_Init() and when should it be used?",
+      "range": {
+        "startLine": 25,
+        "startChar": 54,
+        "endLine": 25,
+        "endChar": 67
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3aa3a0d7_e0829ba7",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "from the program",
+      "range": {
+        "startLine": 28,
+        "startChar": 75,
+        "endLine": 28,
+        "endChar": 87
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba220cdb_ad24b60a",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "API",
+      "range": {
+        "startLine": 29,
+        "startChar": 42,
+        "endLine": 29,
+        "endChar": 45
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd3e102d_6f1708a0",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "API",
+      "range": {
+        "startLine": 30,
+        "startChar": 42,
+        "endLine": 30,
+        "endChar": 45
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "95ac6c24_fb3aad46",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "Can internval_ms be negative?\nIf no, is there a reason for using \"int\" instead of, say, uint32_t.",
+      "range": {
+        "startLine": 55,
+        "startChar": 49,
+        "endLine": 55,
+        "endChar": 52
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dd33857f_40f77fac",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "Why \"interval_ms\" is used in both ldac_ABR_get_handle and ldac_ABR_Init() ? Shouldn\u0027t this be specified only in one of the functions?",
+      "range": {
+        "startLine": 76,
+        "startChar": 61,
+        "endLine": 76,
+        "endChar": 72
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8f610328_5ae3feba",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "What are the threshold units/values and where do they come from?",
+      "range": {
+        "startLine": 83,
+        "startChar": 47,
+        "endLine": 83,
+        "endChar": 69
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa91ab55_748974aa",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "Note that as part of the logic for adding packets to the TX queue, if the queue becomes too large, we remove everything from it before adding the next entry.\nIn this context, keep in mind for the future whether we need adding a flag that the queue was flushed.",
+      "range": {
+        "startLine": 98,
+        "startChar": 41,
+        "endLine": 98,
+        "endChar": 59
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d1d3cfa1_faf03489",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "Please describe. Also, please rename as appropriate because it is not clear from the name flgenable what this variable is. flagEnable?",
+      "range": {
+        "startLine": 99,
+        "startChar": 8,
+        "endLine": 99,
+        "endChar": 26
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6fbd22b3_34d24e86",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "I noticed that cnt is incremented below per packet. Is there a reason:\n(a) cnt is signed vs unsigned\n(b) cnt is 32-bit instead of 64-bits or size_t.\n\nSimilar comment applies to the other counters (maybe \"sum\"?) that\nmight be incremented per packet.",
+      "range": {
+        "startLine": 30,
+        "startChar": 4,
+        "endLine": 30,
+        "endChar": 15
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "386277c0_699ced88",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-01T22:53:54Z",
+      "side": 1,
+      "message": "Can cnt be zero (because of initial value or overflow)?",
+      "range": {
+        "startLine": 192,
+        "startChar": 47,
+        "endLine": 192,
+        "endChar": 70
+      },
+      "revId": "7fb608dc653fe7d1ca7e0208768fb2108b686083",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
