@@ -383,6 +383,30 @@
     },
     {
       "key": {
+        "uuid": "7b48db65_7821462e",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-01T03:38:10Z",
+      "side": 1,
+      "message": "Yes, you are right. \nThis interval/value must be same as the 20ms periodic timer for LDAC encoding in the current system/bt implementation.\nAs you pointed out, if interval_ms is zero or negative, we should return \"-1\" here.",
+      "parentUuid": "4d1cb900_45253be5",
+      "range": {
+        "startLine": 117,
+        "startChar": 23,
+        "endLine": 117,
+        "endChar": 50
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2c0f075c_e6fe7c63",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
