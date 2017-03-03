@@ -153,6 +153,24 @@
     },
     {
       "key": {
+        "uuid": "001e6d80_5d4078b6",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f1a33a7_41430d8d",
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3b729078_b576ec32",
         "filename": "abr/inc/ldacBT_abr.h",
         "patchSetId": 2
@@ -164,6 +182,30 @@
       "writtenOn": "2017-02-28T11:54:53Z",
       "side": 1,
       "message": "Please add the appropriate name of each argument, and use\nthat name in the description. For reference, please see ldacBT.h,\ne.g., function ldacBT_free_handle().\n\nSame comment applies to all other functions below.",
+      "range": {
+        "startLine": 39,
+        "startChar": 49,
+        "endLine": 39,
+        "endChar": 52
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "72eeb380_385406d4",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3b729078_b576ec32",
       "range": {
         "startLine": 39,
         "startChar": 49,
@@ -199,6 +241,30 @@
     },
     {
       "key": {
+        "uuid": "8209a3d6_355d1d5b",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d2ca4ebd_49dc1e53",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 3
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "530b3762_96914f16",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
@@ -210,6 +276,30 @@
       "writtenOn": "2017-02-28T11:54:53Z",
       "side": 1,
       "message": "Can you use the standard int8_t, int32_t, int16_t from \u003cstdint.h\u003e\ninstead of having your own declarations?",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 20
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "04f225c8_e3242171",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Changed to use unsigned char, int, short.\nDone.",
+      "parentUuid": "530b3762_96914f16",
       "range": {
         "startLine": 22,
         "startChar": 0,
@@ -245,6 +335,30 @@
     },
     {
       "key": {
+        "uuid": "e7f9bd65_ad32c21b",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "19169000_8ba7d10a",
+      "range": {
+        "startLine": 59,
+        "startChar": 21,
+        "endLine": 59,
+        "endChar": 22
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c8043811_03c3823b",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
@@ -256,6 +370,30 @@
       "writtenOn": "2017-02-28T11:54:53Z",
       "side": 1,
       "message": "The API header file already contains the function description.\nDo you need to repeat the description here?\nThis makes it harder to maintain it - in fact the wording in\nboth places is different.\nPlease merge both descriptions in the header file by using\nsame format as in the original ldacBT.h.\n\nFor reference - please see ldacBT_free_handle() in the original\nLDAC library: the header file contains the API description,\nwhile the implementation file has just a very short reminder:\n/* Free LDAC handle */\n\nSame comment applies to the rest of the functions below\nthat are (should be) described in the header API file.",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 2
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e17d4df8_5b8fb029",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Removed the function description.\nDone.",
+      "parentUuid": "c8043811_03c3823b",
       "range": {
         "startLine": 61,
         "startChar": 0,
@@ -291,6 +429,30 @@
     },
     {
       "key": {
+        "uuid": "492fc3e8_ba7106db",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e147af3_c58e0d21",
+      "range": {
+        "startLine": 66,
+        "startChar": 47,
+        "endLine": 66,
+        "endChar": 56
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "aa264079_44ab393d",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
@@ -314,6 +476,30 @@
     },
     {
       "key": {
+        "uuid": "ece48064_e8cb60a3",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa264079_44ab393d",
+      "range": {
+        "startLine": 107,
+        "startChar": 47,
+        "endLine": 107,
+        "endChar": 56
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "effe9942_4f7b0099",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
@@ -325,6 +511,30 @@
       "writtenOn": "2017-02-28T11:54:53Z",
       "side": 1,
       "message": "Nit: tabs instead of spaces. Also, the indentation is different from\nthe rest of the code.",
+      "range": {
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 114,
+        "endChar": 1
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "534acd49_7b8087c0",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "effe9942_4f7b0099",
       "range": {
         "startLine": 114,
         "startChar": 0,
@@ -407,6 +617,30 @@
     },
     {
       "key": {
+        "uuid": "1adbefc1_f97ee35d",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e915844a_0cc2a049",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 1
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2c0f075c_e6fe7c63",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
@@ -418,6 +652,30 @@
       "writtenOn": "2017-02-28T11:54:53Z",
       "side": 1,
       "message": "Nit: this is \u003cTAB\u003e instead of spaces. Also, the indentation is odd.",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 1
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8322e56e_6427ced5",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c0f075c_e6fe7c63",
       "range": {
         "startLine": 159,
         "startChar": 0,
@@ -453,6 +711,30 @@
     },
     {
       "key": {
+        "uuid": "50d5484d_1e4288ea",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "411ffc5a_c3fba34a",
+      "range": {
+        "startLine": 185,
+        "startChar": 0,
+        "endLine": 185,
+        "endChar": 1
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "320d6440_287b22b2",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
@@ -464,6 +746,30 @@
       "writtenOn": "2017-02-28T11:54:53Z",
       "side": 1,
       "message": "Same comment as above.",
+      "range": {
+        "startLine": 188,
+        "startChar": 0,
+        "endLine": 188,
+        "endChar": 1
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8884659c_ec50ddbd",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "320d6440_287b22b2",
       "range": {
         "startLine": 188,
         "startChar": 0,
@@ -499,6 +805,30 @@
     },
     {
       "key": {
+        "uuid": "3906f6f5_18d4eef6",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc607bb5_89dc7a32",
+      "range": {
+        "startLine": 207,
+        "startChar": 6,
+        "endLine": 207,
+        "endChar": 15
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a32e8cc6_57415355",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
@@ -522,6 +852,30 @@
     },
     {
       "key": {
+        "uuid": "2301cbc2_ef1abc2a",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a32e8cc6_57415355",
+      "range": {
+        "startLine": 278,
+        "startChar": 50,
+        "endLine": 278,
+        "endChar": 51
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f5642ce4_db1a437b",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 2
@@ -533,6 +887,30 @@
       "writtenOn": "2017-02-28T11:54:53Z",
       "side": 1,
       "message": "For readability, I\u0027d suggest to add {} around the multi-line text/code\nafter the \"if\" statement:\nif (...) {\n ...\n}\n\nIn the past, we had very hard to find bugs that started with\n\"if\" statement and missing {}.",
+      "range": {
+        "startLine": 304,
+        "startChar": 12,
+        "endLine": 306,
+        "endChar": 46
+      },
+      "revId": "3caae221a12d556486a4a7906228ca9ec0d915c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4fa60a99_8b1acaf5",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 306,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-03T09:55:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5642ce4_db1a437b",
       "range": {
         "startLine": 304,
         "startChar": 12,
