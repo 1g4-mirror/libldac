@@ -1,0 +1,418 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f77432d8_d4359ce1",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "clearing",
+      "range": {
+        "startLine": 30,
+        "startChar": 52,
+        "endLine": 30,
+        "endChar": 58
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc72eb59_7ff828fb",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Based on the existing implementation, there is a check that the\nvalue is in the interval (0, 500]. You might want to describe here what values are valid.",
+      "range": {
+        "startLine": 84,
+        "startChar": 43,
+        "endLine": 84,
+        "endChar": 86
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dddaa3f7_c0d2b241",
+        "filename": "abr/inc/ldacBT_abr.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Are there pre-defined limits/requirements for each threshold?\nAny value (including zero) is valid?\nAlso, is there a requirement that, say, thCritical \u003e\u003d thDangerousTrend \u003e\u003d thSafety4HQSQ?",
+      "range": {
+        "startLine": 95,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 61
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacc98d2_008f373f",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Nit: the \"if\" statement is not really needed - you can safely call free(ptr) even if ptr is NULL.",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 44
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4d1b2c8f_917e9bcc",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Nit: same comment as above about calling \"free()\" with NULL pointer.",
+      "range": {
+        "startLine": 96,
+        "startChar": 4,
+        "endLine": 96,
+        "endChar": 67
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c62f4ab0_0c12367a",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "It would be nice if those hard-coded values are parameters that\nare defined in the top of this file. That would make it easier to change/experiment with different parameters.",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 32
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8441994c_4efdc92f",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Do we need to check that thCritical \u003e\u003d thDangerousTrend \u003e\u003d thSafety4HQSQ?",
+      "range": {
+        "startLine": 121,
+        "startChar": 4,
+        "endLine": 123,
+        "endChar": 44
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f59695c8_1a05ede0",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "What is the meaning of those values? Are those related in any way\nto LDACBT_EQMID_HQ\u003d0, LDACBT_EQMID_SQ\u003d1, LDACBT_EQMID_MQ\u003d2 ?\n\nAlso, if this array is one of the \"parameters\" for tuning the ABR, please consider moving it to the top of the file where all tuning parameters should be together.",
+      "range": {
+        "startLine": 136,
+        "startChar": 41,
+        "endLine": 136,
+        "endChar": 55
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e9c444d7_d62f4652",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "I guess this is suppose to be the number of elements in aEqmidToBitrateSortedID?\nI.e., that should be sizeof(aEqmidToBitrateSortedID) / sizeof(aEqmidToBitrateSortedID[0]) to calculate the number of elements.",
+      "range": {
+        "startLine": 144,
+        "startChar": 31,
+        "endLine": 144,
+        "endChar": 62
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84a06347_de7e4642",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Nit: doesn\u0027t match the coding style you use in this file.\nI.e., there should be spaces around \u0027\u003d\u0027 , \u0027\u003c\u0027 and \u0027-\u0027",
+      "range": {
+        "startLine": 156,
+        "startChar": 4,
+        "endLine": 156,
+        "endChar": 75
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "76730005_3fc07feb",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Nit: see the coding style comment above - there should be spaces around \u0027\u003d\u0027",
+      "range": {
+        "startLine": 161,
+        "startChar": 88,
+        "endLine": 161,
+        "endChar": 89
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5c63d1c3_92717c53",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "The \"flag\" part in the name implies this is probably a boolean variable. However, it seems that variable can have values 0, 1, -1, -2 which makes it confusing about its purpose.",
+      "range": {
+        "startLine": 181,
+        "startChar": 12,
+        "endLine": 181,
+        "endChar": 36
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d3547458_47e6a717",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "See my comment above about computing the number of elements in the array.",
+      "range": {
+        "startLine": 255,
+        "startChar": 42,
+        "endLine": 255,
+        "endChar": 73
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "85533f48_62469ff3",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Where this particular value comes from? Is this the last element in aEqmidToBitrateSortedID?",
+      "range": {
+        "startLine": 260,
+        "startChar": 45,
+        "endLine": 260,
+        "endChar": 46
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "406d5a0b_4951c93c",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "See my comment above about computing the number of elements in the array.",
+      "range": {
+        "startLine": 281,
+        "startChar": 42,
+        "endLine": 281,
+        "endChar": 73
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e87a57bf_43dbeb4e",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Where this value comes from? Is it the value of the first element in the bitrate sorted ID array?\n  aEqmidToBitrateSortedID[0]",
+      "range": {
+        "startLine": 288,
+        "startChar": 43,
+        "endLine": 288,
+        "endChar": 44
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fef4ce84_abe45e59",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "What is the meaning of this number? Should this be a tuning parameter defined in the top of this file?",
+      "range": {
+        "startLine": 289,
+        "startChar": 49,
+        "endLine": 289,
+        "endChar": 51
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fd1bae00_4fc76bef",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-08T11:16:01Z",
+      "side": 1,
+      "message": "Same comment as above. Should this be a tuning parameter defined in the beginning of this file?",
+      "range": {
+        "startLine": 299,
+        "startChar": 40,
+        "endLine": 299,
+        "endChar": 42
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
