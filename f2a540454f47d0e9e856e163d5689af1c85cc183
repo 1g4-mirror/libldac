@@ -214,6 +214,30 @@
     },
     {
       "key": {
+        "uuid": "1c3303df_3bfd4764",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-13T04:39:04Z",
+      "side": 1,
+      "message": "I am curious to know about the problem you have seen in the past\nwhen calling free() with a NULL pointer.\nThough, for this  particular CL I am OK to keep the check as-is.",
+      "parentUuid": "0887ebb4_cbe2bf68",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 44
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4d1b2c8f_917e9bcc",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 6
