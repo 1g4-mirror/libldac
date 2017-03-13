@@ -22,6 +22,30 @@
       "revId": "73be681862e2ee0f443b623944d34d888968c435",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "10db5a20_cb81cb11",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 7
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-13T07:24:39Z",
+      "side": 1,
+      "message": "\u00270\u0027 shall be the ID sorted in descending order by bit rate. I\u0027ll fix this in PS8.",
+      "parentUuid": "e36533a3_e4947c40",
+      "range": {
+        "startLine": 128,
+        "startChar": 28,
+        "endLine": 128,
+        "endChar": 29
+      },
+      "revId": "73be681862e2ee0f443b623944d34d888968c435",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }

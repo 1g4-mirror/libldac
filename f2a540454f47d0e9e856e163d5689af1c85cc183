@@ -238,6 +238,30 @@
     },
     {
       "key": {
+        "uuid": "2f08ba66_05c3446f",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-13T07:24:39Z",
+      "side": 1,
+      "message": "Since I encountered this problem more than seven years ago, I do not remember the problem clearly now, but I recall that calling free () with a NULL pointer hangs the ARM processor.",
+      "parentUuid": "1c3303df_3bfd4764",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 44
+      },
+      "revId": "f2a540454f47d0e9e856e163d5689af1c85cc183",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4d1b2c8f_917e9bcc",
         "filename": "abr/src/ldacBT_abr.c",
         "patchSetId": 6
