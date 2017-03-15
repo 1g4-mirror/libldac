@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f0d3413d_74ddf446",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1097600
+      },
+      "writtenOn": "2017-03-15T08:01:17Z",
+      "side": 1,
+      "message": "can you also add eqmid and relevant bitrate for reference?\nis convertedId equal to abrQualityModeId?",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 51
+      },
+      "revId": "75f12dc057aa1e5284993b37bcf2b430b4413689",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
