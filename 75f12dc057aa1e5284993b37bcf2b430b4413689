@@ -22,6 +22,30 @@
       "revId": "75f12dc057aa1e5284993b37bcf2b430b4413689",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4a3af970_06ae7c48",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2017-03-16T06:04:13Z",
+      "side": 1,
+      "message": "In the next patch, I\u0027ll add this kind of information to the description of the EQMID conversion table for reference.",
+      "parentUuid": "f0d3413d_74ddf446",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 51
+      },
+      "revId": "75f12dc057aa1e5284993b37bcf2b430b4413689",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
