@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "70129ac4_e6a3f926",
+        "filename": "abr/src/ldacBT_abr.c",
+        "patchSetId": 11
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-03-22T23:41:29Z",
+      "side": 1,
+      "message": "If you are printing a log message, you might want to print the threshold values as well.",
+      "range": {
+        "startLine": 156,
+        "startChar": 11,
+        "endLine": 156,
+        "endChar": 15
+      },
+      "revId": "f8a8b0a16c988160d16293d47580973e71a227ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
