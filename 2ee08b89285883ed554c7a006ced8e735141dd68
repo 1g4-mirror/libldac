@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "473c26fe_c7a29783",
+        "filename": "NOTICE",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-06-08T20:14:58Z",
+      "side": 1,
+      "message": "Please separate the \"Certification\" text from the \"License\" text in two separate files:\n - LICENSE (just the vanilla \"Apache License\" code below)\n - NOTICE file: The Certification requirements above.\n\nThis will keep things cleaner.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 15
+      },
+      "revId": "2ee08b89285883ed554c7a006ced8e735141dd68",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
