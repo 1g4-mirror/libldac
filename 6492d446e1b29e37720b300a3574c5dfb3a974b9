@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f24b3eaf_9ade7a07",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-06-16T15:26:26Z",
+      "side": 1,
+      "message": "The summary line is too long - it should be (approx) 60 characters.\nThe details of what exactly was done can be part of the\nbody with the description.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 106
+      },
+      "revId": "6492d446e1b29e37720b300a3574c5dfb3a974b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "86fb86f4_c9dc6b15",
+        "filename": "project.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1071489
+      },
+      "writtenOn": "2017-06-16T15:26:26Z",
+      "side": 1,
+      "message": "Does this group exist already?\nI need to check the names of the other approvers groups,\nand see if they use/follow a pre-defined naming pattern.",
+      "range": {
+        "startLine": 7,
+        "startChar": 31,
+        "endLine": 7,
+        "endChar": 54
+      },
+      "revId": "6492d446e1b29e37720b300a3574c5dfb3a974b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
