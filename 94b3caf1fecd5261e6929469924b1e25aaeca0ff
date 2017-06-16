@@ -1,0 +1,11 @@
+Code-Review+2: Andre Eisenbach <eisenbach@google.com>
+Code-Review+1: Chisato Kenmochi <Chisato.Kenmochi@sony.com>
+Code-Review+2: Pavlin Radoslavov <pavlin@google.com>
+Verified+1: Pavlin Radoslavov <pavlin@google.com>
+Autosubmit+1: Pavlin Radoslavov <pavlin@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 16 Jun 2017 17:00:58 +0000
+Reviewed-on: https://android-review.googlesource.com/403372
+Project: platform/external/libldac
+Branch: refs/heads/master
