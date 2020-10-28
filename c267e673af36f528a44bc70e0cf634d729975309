@@ -1,0 +1,8 @@
+Autosubmit+1: Glenn Kasten <gkasten@android.com>
+Code-Review+2: Raman Tenneti <rtenneti@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 28 Oct 2020 00:30:31 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/external/libldac/+/1477199
+Project: platform/external/libldac
+Branch: refs/heads/master
