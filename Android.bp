@@ -1,3 +1,14 @@
+package {
+    default_applicable_licenses: ["external_libldac_license"],
+}
+
+license {
+    name: "external_libldac_license",
+    visibility: [":__subpackages__"],
+    license_kinds: ["SPDX-license-identifier-Apache-2.0"],
+    license_text: ["LICENSE","NOTICE"],
+}
+
 cc_library_shared {
     name: "libldacBT_enc",
     vendor_available: true,
