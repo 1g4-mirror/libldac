@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "402f7ac7_1643cff8",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2022-03-08T18:05:11Z",
+      "side": 1,
+      "message": "nit: would appreciate a comment or macro to define what is 679.",
+      "revId": "42ced961291db10897aff3df141c47180c3b8d1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8720620a_1dcab65f",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2022-03-08T18:05:11Z",
+      "side": 1,
+      "message": "nit: would appreciate a comment or macro to define what is 44.",
+      "revId": "42ced961291db10897aff3df141c47180c3b8d1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
