@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd3fec23_9a866b92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2022-03-09T00:37:51Z",
+      "side": 1,
+      "message": "Added comment for arguments of the init function",
+      "revId": "42ced961291db10897aff3df141c47180c3b8d1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "402f7ac7_1643cff8",
@@ -14,6 +31,81 @@
       "writtenOn": "2022-03-08T18:05:11Z",
       "side": 1,
       "message": "nit: would appreciate a comment or macro to define what is 679.",
+      "revId": "42ced961291db10897aff3df141c47180c3b8d1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13795ae0_d8701665",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2022-03-09T00:37:51Z",
+      "side": 1,
+      "message": "679 is based on LDAC a2dp specification below:\nThe minimum MTU that a L2CAP implementation for LDAC shall support is 679 bytes, because LDAC is optimized with 2-DH5 packet as its target.",
+      "parentUuid": "402f7ac7_1643cff8",
+      "revId": "42ced961291db10897aff3df141c47180c3b8d1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30334144_8ea7b5f1",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2022-03-09T00:37:51Z",
+      "side": 1,
+      "message": "Default value for this argument is LDACBT_CHANNEL_MODE_STEREO. Why don\u0027t we use default value here?",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 41
+      },
+      "revId": "42ced961291db10897aff3df141c47180c3b8d1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de92c6ee_e7cf1e16",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2022-03-09T00:37:51Z",
+      "side": 1,
+      "message": "Default value for this argument is LDACBT_SMPL_FMT_S24 (or S32?). Why don\u0027t we use default value here?",
+      "revId": "42ced961291db10897aff3df141c47180c3b8d1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58c319cd_acd14589",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2022-03-09T00:37:51Z",
+      "side": 1,
+      "message": "Default value for this argument is 96000. Why don\u0027t we use default value here?",
       "revId": "42ced961291db10897aff3df141c47180c3b8d1b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
