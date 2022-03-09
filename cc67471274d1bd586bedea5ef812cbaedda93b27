@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5455db31_8118e479",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1619864
+      },
+      "writtenOn": "2022-03-09T05:56:19Z",
+      "side": 1,
+      "message": "The calculation for frameSize happens inside the ldacBT_encode() function - https://cs.android.com/android/platform/superproject/+/master:external/libldac/src/ldacBT_api.c;l\u003d397?q\u003dldacBT_encode\u0026ss\u003dandroid%2Fplatform%2Fsuperproject:external%2Flibldac%2Fsrc%2F\n\nThere is no such API that could be directly called from the fuzzer to get the framesize.",
+      "parentUuid": "6c8192e4_4dbde350",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3c99a921_93cd0b43",
         "filename": "fuzzer/libldac_encode_fuzzer.cc",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2022-03-09T00:39:32Z",
       "side": 1,
       "message": "This comment is unclear - since the padding with zeroes happens two lines above this and happens as a side effect of using the vector.  Could you rework the comment here so that it\u0027s clearer what is happening?",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7406e07_8efe1229",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1619864
+      },
+      "writtenOn": "2022-03-09T05:56:19Z",
+      "side": 1,
+      "message": "Initially instead of a vector, this was an array on stack followed by a memset. And after changing this to a vector, the comment is no longer needed and I have removed it now.",
+      "parentUuid": "3c99a921_93cd0b43",
       "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
