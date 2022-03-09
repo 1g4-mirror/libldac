@@ -36,6 +36,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fb7811a_6df4383a",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000668
+      },
+      "writtenOn": "2022-03-09T18:05:49Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5455db31_8118e479",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3c99a921_93cd0b43",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "Initially instead of a vector, this was an array on stack followed by a memset. And after changing this to a vector, the comment is no longer needed and I have removed it now.",
       "parentUuid": "3c99a921_93cd0b43",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9088362_99451817",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000668
+      },
+      "writtenOn": "2022-03-09T18:05:49Z",
+      "side": 1,
+      "message": "I think a comment explaining what\u0027s happening is still worthwhile.  Even something like // Zero pad to the framesize - so that it\u0027s obvious why this twiddle is happening at a glance.",
+      "parentUuid": "c7406e07_8efe1229",
       "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
