@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c8192e4_4dbde350",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000668
+      },
+      "writtenOn": "2022-03-09T00:39:32Z",
+      "side": 1,
+      "message": "ldacBT_encode doesn\u0027t take a size - how does it know the framesize?  Could this value be pulled from a common definition instead of using a new declaration here that might skew?",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c99a921_93cd0b43",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000668
+      },
+      "writtenOn": "2022-03-09T00:39:32Z",
+      "side": 1,
+      "message": "This comment is unclear - since the padding with zeroes happens two lines above this and happens as a side effect of using the vector.  Could you rework the comment here so that it\u0027s clearer what is happening?",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
