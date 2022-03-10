@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d9e88ee_f84cce35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2022-03-10T01:22:39Z",
+      "side": 1,
+      "message": "Hi, comment for the padding with zeroes. Hope this will help you.",
+      "revId": "982260b5553bf6b74982a9c70b4e4bf3de806b9f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}

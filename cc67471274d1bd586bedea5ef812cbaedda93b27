@@ -105,6 +105,24 @@
       "parentUuid": "c7406e07_8efe1229",
       "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff8e943b_557549dd",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2022-03-10T01:22:39Z",
+      "side": 1,
+      "message": "I don\u0027t know if it will satisfy the purpose of the test, but I don\u0027t think the readPointer zero clear currently being discussed is necessary for testing purposes.\nFor this reason,\nFirst, ldacBT_encoder is frame processing and always processes one frame of PCM data that inputed by readPointer in this source code. In other words, the number of PCM data samples processed at one time is always constant.\nIn practical use, the case where this zero clear is required can occur when processing the end of the music source. Specifically, if the input PCM data is less than one LDAC frame, the non input PCM data part should silenced (zero clear) to prevent noise.\nThis is why zero clear is required and has nothing to do with the behavior of ldacBT_encoder.\nFrom the above, I think that the zero clear of readPointer, which is currently being discussed, is unnecessary for test purposes.",
+      "parentUuid": "e9088362_99451817",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
