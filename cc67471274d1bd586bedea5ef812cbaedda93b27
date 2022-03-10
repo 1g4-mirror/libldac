@@ -123,6 +123,24 @@
       "parentUuid": "e9088362_99451817",
       "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64edd612_1d0faa85",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1619864
+      },
+      "writtenOn": "2022-03-10T05:17:41Z",
+      "side": 1,
+      "message": "Hi,\n\nIn ldacBT_encode(), LDACBT_ENC_LSU * wl * ch bytes are copied from the input buffer to a destination buffer. So, the fuzzer needs to pass at least \u0027frameSize\u0027 worth of bytes. That is the reason, vector\u003cuint8_t\u003e tmpData(kMaxFrameSize) was used.\n\nIf fuzzer passes a smaller buffer to ldacBT_encode(), it may lead to an OOB read in ldacBT_encode().\n\nReference: https://cs.android.com/android/platform/superproject/+/master:external/libldac/src/ldacBT_api.c;l\u003d400;bpv\u003d0;bpt\u003d1",
+      "parentUuid": "ff8e943b_557549dd",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
