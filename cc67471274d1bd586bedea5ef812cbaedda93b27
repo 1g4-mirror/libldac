@@ -141,6 +141,24 @@
       "parentUuid": "ff8e943b_557549dd",
       "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "358a7fd4_cc1b0b46",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1120881
+      },
+      "writtenOn": "2022-03-11T00:00:25Z",
+      "side": 1,
+      "message": "Hi,\nThankyou for the explanation. Yes, the buffer size should be treated as you wrote.",
+      "parentUuid": "64edd612_1d0faa85",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
