@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4c96075_401720bb",
+        "filename": "fuzzer/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1353865
+      },
+      "writtenOn": "2022-04-14T23:57:40Z",
+      "side": 1,
+      "message": "Consider adding:\n- seed corpus\n- ldap for fuzzer maintainer (or team)",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 7
+      },
+      "revId": "3057705a4c7e991eec6b9bf5f583290c65a5429b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c5499ac_378bf96b",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1353865
+      },
+      "writtenOn": "2022-04-14T23:57:40Z",
+      "side": 1,
+      "message": "Consider randomizing these calls.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 32
+      },
+      "revId": "3057705a4c7e991eec6b9bf5f583290c65a5429b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
