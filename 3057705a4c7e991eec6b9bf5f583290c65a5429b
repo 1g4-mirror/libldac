@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "20e4ed36_e8aebabb",
+        "filename": "fuzzer/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1619864
+      },
+      "writtenOn": "2022-04-22T04:15:17Z",
+      "side": 1,
+      "message": "This file is moved as is from a different folder.\nhttps://android-review.googlesource.com/c/platform/external/libldac/+/2015997 refactors this.",
+      "parentUuid": "a4c96075_401720bb",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 7
+      },
+      "revId": "3057705a4c7e991eec6b9bf5f583290c65a5429b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c5499ac_378bf96b",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-04-14T23:57:40Z",
       "side": 1,
       "message": "Consider randomizing these calls.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 32
+      },
+      "revId": "3057705a4c7e991eec6b9bf5f583290c65a5429b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41141a7f_7e2125f7",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1619864
+      },
+      "writtenOn": "2022-04-22T04:15:17Z",
+      "side": 1,
+      "message": "This file is moved as is from a different folder.\nhttps://android-review.googlesource.com/c/platform/external/libldac/+/2015997 refactors this and calls some APIs in randomized order",
+      "parentUuid": "2c5499ac_378bf96b",
       "range": {
         "startLine": 21,
         "startChar": 0,
