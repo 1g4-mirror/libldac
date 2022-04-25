@@ -159,6 +159,24 @@
       "parentUuid": "64edd612_1d0faa85",
       "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0666a973_37f4da5a",
+        "filename": "fuzzer/libldac_encode_fuzzer.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1047003
+      },
+      "writtenOn": "2022-04-25T17:29:32Z",
+      "side": 1,
+      "message": "Marking this as resolved as nothing else remains to be done in this.",
+      "parentUuid": "358a7fd4_cc1b0b46",
+      "revId": "cc67471274d1bd586bedea5ef812cbaedda93b27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
