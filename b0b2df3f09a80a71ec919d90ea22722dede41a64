@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b954d95_ff588835",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2022-04-25T17:07:36Z",
+      "side": 1,
+      "message": "Can you please resolve the outstanding comments at line#39 - https://android-review.googlesource.com/c/platform/external/libldac/+/2015996/comment/3c99a921_93cd0b43/\n\nThanks",
+      "revId": "b0b2df3f09a80a71ec919d90ea22722dede41a64",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
