@@ -6,6 +6,7 @@
 #include <stddef.h>
 #include "ldacBT.h"
 
+#include <functional>
 #include <fuzzer/FuzzedDataProvider.h>
 #include <vector>
 
