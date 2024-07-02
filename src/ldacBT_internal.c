@@ -223,14 +223,28 @@ DECLFUNC void ldacBT_prepare_pcm_encode( void *pbuff, char **ap_pcm, int nsmpl, 
     int i;
     if( nch == 2 ){
         if( fmt == LDACBT_SMPL_FMT_S16 ){
-            short *p_pcm_16 = (short *)pbuff;
-            short *p_lch_16 = (short *)ap_pcm[0];
-            short *p_rch_16 = (short *)ap_pcm[1];
+            char *p_pcm_8 = (char *)pbuff;
+            char *p_lch_8 = (char *)ap_pcm[0];
+            char *p_rch_8 = (char *)ap_pcm[1];
+#if __BYTE_ORDER == __LITTLE_ENDIAN
             for (i = 0; i < nsmpl; i++) {
-                *p_lch_16++ = p_pcm_16[0];
-                *p_rch_16++ = p_pcm_16[1];
-                p_pcm_16+=2;
+                *p_lch_8++ = p_pcm_8[0];
+                *p_lch_8++ = p_pcm_8[1];
+                p_pcm_8+=2;
+                *p_rch_8++ = p_pcm_8[0];
+                *p_rch_8++ = p_pcm_8[1];
+                p_pcm_8+=2;
             }
+#else   /* __BYTE_ORDER */
+            for (i = 0; i < nsmpl; i++) {
+                *p_lch_8++ = p_pcm_8[1];
+                *p_lch_8++ = p_pcm_8[0];
+                p_pcm_8+=2;
+                *p_rch_8++ = p_pcm_8[1];
+                *p_rch_8++ = p_pcm_8[0];
+                p_pcm_8+=2;
+            }
+#endif  /* #if __BYTE_ORDER == __LITTLE_ENDIAN */
         }
         else if( fmt == LDACBT_SMPL_FMT_S24 ){
             char *p_pcm_8 = (char *)pbuff;
@@ -248,7 +262,16 @@ DECLFUNC void ldacBT_prepare_pcm_encode( void *pbuff, char **ap_pcm, int nsmpl, 
                 p_pcm_8+=3;
             }
 #else   /* __BYTE_ORDER */
-#error unsupported byte order
+            for (i = 0; i < nsmpl; i++) {
+                *p_lch_8++ = p_pcm_8[2];
+                *p_lch_8++ = p_pcm_8[1];
+                *p_lch_8++ = p_pcm_8[0];
+                p_pcm_8+=3;
+                *p_rch_8++ = p_pcm_8[2];
+                *p_rch_8++ = p_pcm_8[1];
+                *p_rch_8++ = p_pcm_8[0];
+                p_pcm_8+=3;
+            }
 #endif  /* #if __BYTE_ORDER == __LITTLE_ENDIAN */
         }
         else if ( fmt == LDACBT_SMPL_FMT_S32 ){
@@ -263,7 +286,12 @@ DECLFUNC void ldacBT_prepare_pcm_encode( void *pbuff, char **ap_pcm, int nsmpl, 
                 p_pcm_8+=4;
             }
 #else   /* __BYTE_ORDER */
-#error unsupported byte order
+            for (i = 0; i < nsmpl; i++) {
+                *p_lch_8++ = p_pcm_8[3]; *p_lch_8++ = p_pcm_8[2]; *p_lch_8++ = p_pcm_8[1]; *p_lch_8++ = p_pcm_8[0];
+                p_pcm_8+=4;
+                *p_rch_8++ = p_pcm_8[3]; *p_rch_8++ = p_pcm_8[2]; *p_rch_8++ = p_pcm_8[1]; *p_rch_8++ = p_pcm_8[0];
+                p_pcm_8+=4;
+            }
 #endif  /* #if __BYTE_ORDER == __LITTLE_ENDIAN */
         }
         else if ( fmt == LDACBT_SMPL_FMT_F32 ){
