@@ -25,9 +25,6 @@ cc_library {
     name: "libldacBT_enc",
     vendor_available: true,
     product_available: true,
-    vndk: {
-        enabled: true,
-    },
     host_supported: true,
     arch: {
         arm: {
@@ -59,9 +56,6 @@ cc_library {
     name: "libldacBT_abr",
     vendor_available: true,
     product_available: true,
-    vndk: {
-        enabled: true,
-    },
     host_supported: true,
     arch: {
         arm: {
