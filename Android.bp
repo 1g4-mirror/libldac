@@ -42,7 +42,7 @@ cc_library {
     min_sdk_version: "Tiramisu",
     apex_available: [
         "//apex_available:platform",
-        "com.android.btservices",
+        "com.android.bt",
     ],
     visibility: [
         "//external/libldac/fuzzer",
@@ -69,7 +69,7 @@ cc_library {
     min_sdk_version: "Tiramisu",
     apex_available: [
         "//apex_available:platform",
-        "com.android.btservices",
+        "com.android.bt",
     ],
     visibility: [
         "//packages/modules/Bluetooth:__subpackages__",
